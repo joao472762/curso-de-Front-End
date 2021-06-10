@@ -1,0 +1,18 @@
+main{
+    box-sizing: border-box;
+    width: 600px;
+    background: gray;
+    border: 20px solid rgba(95, 158, 160, 0);
+    padding: 20px;
+    margin: 2em auto;
+}
+.conteudo{
+    display: inline-block;
+    width: 250px;
+}
+@media screen and (max-width:800px) {
+    main{
+        width: 400px;
+    }
+    
+}
