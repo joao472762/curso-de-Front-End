@@ -1,0 +1,15 @@
+@charset "UTF-8";
+*{margin:0;
+padding: 0;
+border: 0;}
+html,body{
+    height: 100%;
+}
+main{
+    box-sizing: border-box;
+    width: 500px;
+    height: 500px;
+    margin: 2em auto;
+    background: aqua;
+    padding: 30px;
+}
