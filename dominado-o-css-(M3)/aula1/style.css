@@ -1,0 +1,33 @@
+*{margin: 0;
+border: 0;
+padding: 0;}
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    color: white;
+    padding: 9px;
+    text-align: center;
+    background-color: #009191;
+    font-size: 18px;
+    font-weight: 400;
+}
+main{margin-top: 8em;}
+section{
+    width: 300px;
+    margin: 2em auto;
+}
+table{
+    width: 600px;
+    margin: 2em auto;
+    border-collapse: collapse;
+}
+td{
+    border: 2px solid #000;
+}
+img{position:absolute;
+    right: 20px;
+    top: 350px;
+    max-width: 150px;
+    height: 280px;
+}
