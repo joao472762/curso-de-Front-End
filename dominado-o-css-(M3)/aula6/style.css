@@ -1,0 +1,35 @@
+input[type=file]{
+    display: none;
+}
+label{
+    cursor: pointer;
+}
+fieldset{
+    width: 80%;
+    margin: 2em auto;
+    background-color: #2ac3a2;
+    text-align: center;
+}
+select{
+    display: inline-block;
+    width: 190px;
+    appearance: none;
+
+}
+select:focus{
+    border: none;
+    outline: none;
+}
+input[type=checkbox]{
+    display: none;
+}
+#box{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 0.5px solid black;
+    background: #fff;
+}
+input[type=checkbox]:checked + #box{
+    background: blue;
+} 
