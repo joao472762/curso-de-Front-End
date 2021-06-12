@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+}
+main{
+    max-height: 90%;
+    width: 80%;
+    max-width: 420px;
+    margin: 2em auto;
+    box-sizing: border-box;
+    padding: 2em;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+#nome, #gmail{
+    width: 100%;
+    font-size: 0.9em;
+    padding: 3px;
+}
+#gmail{
+    margin-top: 14px;
+}
+#dados_idade{
+    color: rgba(0, 0, 0, 0.555);
+    padding: 3px;
+    margin-top: 14px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid black
+}
+select{
+    display: inline;
+    float: right;}
+.ask{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.ask p{
+    font-size: 1.3em;
+    text-align: center;
+    margin: 8px 0;
+}
+#tellme{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 2em auto;
+    text-align: center;
+}
+textarea{
+    height: 100px;
+}
+#enviar{
+    padding: 9px;
+    width: 60px;
+    margin: 11px auto;
+}
+@media screen and (max-width: 350) {
+    main, input{
+        background-color: #ff00f0;
+    }
+}

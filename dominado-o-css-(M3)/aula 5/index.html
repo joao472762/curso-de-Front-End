@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 5</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <main>
+        <form action="">
+            <section id="dados1">
+                <input type="text" id="nome" placeholder="Digite o seu nome" checked>
+                <input type="emial" id="gmail" placeholder="digite o seu email">
+                <div id="dados_idade">
+                    <span>qual é a sua idade</span>
+                    <select name="idade" id="idade">
+                        <option value="idade" disabled selected></option>
+                        <option value="-15">+15</option>
+                        <option value="+18">+18</option>
+                        <option value="+25">+25</option>
+                        <option value="+30">+30</option>
+                        <option value="+40">+40</option>
+                    </select>
+                </div>
+            </section>
+            <section id="dados2">
+                <div class="ask">
+                    <p>Qual é a sua cidade</p>
+                    <label for="florianopolis">
+                        <input type="radio" name="cidade" id="florianopolis"> Florianopolis
+                    </label>
+                    <label for="rio-de-janeiro">
+                        <input type="radio" name="cidade" id="rio-de-janeiro"> Rio de Janeiro
+                    </label>
+                    <label for="sao-paulo">
+                        <input type="radio" name="cidade" id="sao-paulo"> São Paulo
+                    </label>
+                </div>
+                <div class="ask">
+                    <p>O que você gosta de comer ?</p>
+                    <label for="fruta">
+                        <input type="checkbox" name="fruta" id="fruta"> Fruta
+                    </label>
+                    <label for="fast-food">
+                        <input type="checkbox" name="fast-food" id="fast-food"> Fast Food
+                    </label>
+                    <label for="salada">
+                        <input type="checkbox" name="salada" id="salada">Salada
+                    </label>
+                </div>
+            </section>
+            <footer>
+                <div id="tellme">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" name="eviar" value="enviar" id="enviar">
+                </div>
+            </footer>
+        </form>
+    </main>
+</body>
+</html>
