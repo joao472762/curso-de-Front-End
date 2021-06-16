@@ -1,0 +1,15 @@
+html,body{
+    height: 100%;
+}
+#box1{
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
+#box2{
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: #0101ac;
+    float: left;
+}
