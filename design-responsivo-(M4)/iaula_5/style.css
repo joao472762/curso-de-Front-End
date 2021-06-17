@@ -1,0 +1,29 @@
+html,body{
+    height: 100%;
+}
+.box{
+    box-sizing: border-box;
+    width: 25%;
+    padding-top: 25%;
+    background-color: aqua;
+    border: 2px solid #000;
+    float: left;
+}
+@media screen and (max-width:536px){
+    .box{
+        width: 33%;
+    }
+}
+@media screen and (max-width:322px){
+    .box{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 250px){
+    
+    .box{
+        float: none;
+        height: 50%;
+        margin: 0 auto;
+    }
+}
