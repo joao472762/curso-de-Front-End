@@ -31,19 +31,19 @@ span{
     width: 50%;
 }
 #artigo1 p {
-    padding: 09px;
+    padding: 12px;
     font-size: 1.05em;
     background-color: #220b758c;
     width: 90%;;
     max-width: 500px;
-    margin-top: 6px;
+    margin: 6px 0px 0px 13%
 }
 form{
     box-sizing: border-box;
     width: 300px;
     position: absolute;
     top: -20px;
-    right: 30px;
+    right: 60px;
     height: 110%;
     background-color: rgba(204, 204, 204, 0.363);
     padding: 19px;
@@ -107,8 +107,52 @@ input[type=submit]:hover{
     margin: 20px 0;
 }
 .sobre p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 200px;
+    box-sizing: border-box;
+    text-align: justify;
+    border: 25px solid  rgb(226, 226, 226)
 }
+footer{
+    margin: 2em auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 2em;
+}
+@media screen and (max-width:800px){
+    #pt1{
+        flex-direction: column;
+        align-items: center;
+    }
+    #artigo1, #artigo1 p{
+        width: 90%;
+    }
+    #artigo1 p{
+        font-size: 1.1em;
+        width: 100%;
+        max-width: 550px;
+        margin: 0 auto 1.5em auto;
+    }
+    form{
+        width: 90%;
+        max-width: 400px;
+        position: static;
+        top: 0;
+        margin: 0 auto;
+        height: 550px
+    }
+    input{
+        margin-top: 0px;
+        width: 90%;
+    }
+    #pt2{
+        padding:  2em 4em 2em 3em;}
+    #artigo1 p:nth-of-type(2){
+        display: none;
+    }
+    #about{
+        flex-direction: column;
+    }
+    .sobre{
+        width: 100%;
+    }
+ }
